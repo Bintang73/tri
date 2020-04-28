@@ -6,7 +6,7 @@
 ////Fixed by Bintang Nur Pradana///////
 ///////////////////////////////////////
 
-include 'tri_req.php';
+include 'request.php';
 
 $tri = new tri();
 $imei = "868880043302499";
