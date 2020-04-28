@@ -5,7 +5,7 @@
 /////https://github.com/arudji1211//////
 ///////////////////////////////////////
 
-include 'tri_req.php';
+include 'request.php';
 
 $tri = new tri();
 $imei = "868880043302499";
