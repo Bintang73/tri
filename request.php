@@ -93,7 +93,7 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
  "Authorization:Bearer " . $bearer ,
  "User-Agent:Mozilla/5.0 (Linux; Android 9; Redmi Note 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36" ,
  "Content-Type:application/json" ,
- "Referer:http://bonstri.tri.co.id/tukar-points" ,
+ "Referer:http://bonstri.tri.co.id/tukarpoint" ,
  "Accept-Encoding:gzip, deflate" ,
  "Accept-Language:id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7");
      $response = $this->curls("http://bonstri.co.id/api/v1/tukar-points/categories",$header,$body,"POST");
