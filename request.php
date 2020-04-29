@@ -96,7 +96,7 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
  "Referer:http://bonstri.tri.co.id/tukarpoint" ,
  "Accept-Encoding:gzip, deflate" ,
  "Accept-Language:id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7");
-     $response = $this->curls("http://bonstri.co.id/api/v1/tukar-points/categories",$header,$body,"POST");
+     $response = $this->curls("http://bonstri.co.id/api/v1/tukar-points/catalogue",$header,$body,"POST");
      return $response[1];
   }
   
